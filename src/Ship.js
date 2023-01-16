@@ -5,6 +5,10 @@ class Ship{
     setsail(){
         this.startingPort = null
     }
+    dock(port){
+        this.currentPort = port 
+
+    }
 }
 
 
