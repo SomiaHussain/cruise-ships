@@ -1,8 +1,12 @@
-function Ship (ship) {
-    this.startingPort = "Dover"
-    this.setsail = function(){
-        this.startingPort = false;
+class Ship{
+    constructor(startingPort){
+        this.startingPort = startingPort
     }
-};
+    setsail(){
+        this.startingPort = null
+    }
+}
+
+
 
 module.exports = Ship;
